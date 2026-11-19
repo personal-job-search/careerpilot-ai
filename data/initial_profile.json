@@ -1,0 +1,164 @@
+{
+  "name": "Laxmi Narayana Mula Venkata",
+  "headline": "Data Engineer",
+  "location": "Hillsboro, OR",
+  "summary": "Data Engineer with 17+ years of experience in data engineering, quality engineering, and cloud technologies. Hands-on experience building and orchestrating ETL pipelines on Google Cloud Platform (BigQuery, Cloud Storage, Apache Airflow/Cloud Composer) using Python and SQL, with data governance experience including lineage, audit logging, schema validation, and column-level access control using Google policy tags. Experienced in translating business rules into PySpark transformations, production support, and Docker and Jenkins CI/CD. Collaborates with cross-functional teams to deliver reliable, scalable data solutions.",
+  "skills": {
+    "Programming Languages": [
+      "Python",
+      "SQL",
+      "Java",
+      "JavaScript"
+    ],
+    "Data Engineering & Cloud": [
+      "GCP",
+      "BigQuery",
+      "Cloud Storage",
+      "Cloud Composer",
+      "AWS",
+      "Apache Airflow",
+      "PySpark",
+      "Pandas",
+      "NumPy",
+      "Docker",
+      "Terraform",
+      "Jenkins",
+      "JIRA"
+    ],
+    "Data Governance & Quality": [
+      "Google policy tags",
+      "column-level access control",
+      "lineage",
+      "audit logging",
+      "exception tracking",
+      "schema validation",
+      "Pytest data validation"
+    ],
+    "Databases": [
+      "BigQuery",
+      "Oracle",
+      "MySQL",
+      "Amazon Neptune",
+      "Neo4j",
+      "Chroma"
+    ],
+    "Data Science & ML": [
+      "TensorFlow",
+      "Scikit-learn",
+      "Matplotlib",
+      "Seaborn",
+      "Regression",
+      "Classification",
+      "Clustering",
+      "Time Series Forecasting",
+      "NLP",
+      "Experimentation",
+      "Causal Analysis",
+      "XGBoost",
+      "RAG",
+      "AI Agents"
+    ],
+    "Test Automation Frameworks": [
+      "Pytest",
+      "Selenium WebDriver",
+      "Cucumber",
+      "TestNG",
+      "Cypress",
+      "SOAP UI",
+      "Hybrid Automation Frameworks"
+    ]
+  },
+  "experience": [
+    {
+      "company": "Aetna",
+      "title": "Data Engineer",
+      "location": "OR",
+      "start": "March 2023",
+      "end": "Present",
+      "bullets": [
+        "Developed end-to-end ETL pipelines for Member Entitlement processing using Cloud Composer (Airflow) and BigQuery, supporting eligibility and coverage workflows.",
+        "Built governance components including lineage, audit logging, exception tracking, and schema validation.",
+        "Implemented data governance using Google policy tags to enforce column-level access control.",
+        "Orchestrated and monitored data quality pipelines using Airflow (Cloud Composer), enforcing validation SLAs prior to downstream consumption.",
+        "Provided production support, fixing production defects.",
+        "Implemented automated entitlement checks (coverage gaps/overlaps, duplicates, nulls, referential integrity) using optimized BigQuery SQL.",
+        "Developed Python-based data validation Pytest frameworks to verify member eligibility, coverage dates, benefit plans, and entitlement accuracy in BigQuery.",
+        "Created data mock-ups and synthetic test datasets in Python to validate entitlement edge cases and support UAT testing."
+      ]
+    },
+    {
+      "company": "Nike",
+      "title": "SDET",
+      "location": "OR",
+      "start": "October 2015",
+      "end": "February 2023",
+      "bullets": [
+        "Collaborated with materials planners, sourcing teams, and supply-chain SMEs to convert complex business rules (safety stock, sourcing constraints, BOM explosion logic) into scalable PySpark transformations.",
+        "Designed and implemented data validation pipelines using Apache Airflow to perform data quality checks.",
+        "Developed data validation scripts for vendor data, validating source system vs. target using STTM documents.",
+        "Refined and constructed a test automation framework using Python and SQL, focusing on identifying and managing data exceptions.",
+        "Engineered containerized solutions in Docker for Python frameworks and automated deployment using Jenkins CI/CD pipelines.",
+        "Designed and implemented a Python Flask web application to generate customized reports for business users.",
+        "Engineered a UI test automation framework using Cypress and JavaScript."
+      ]
+    },
+    {
+      "company": "Kaiser Permanente",
+      "title": "SDET",
+      "location": "OR",
+      "start": "April 2013",
+      "end": "September 2015",
+      "bullets": [
+        "Developed Selenium Cucumber (Java) and SOAP UI (Groovy) automation for UI and API testing; integrated HP ALM, triggered Jenkins jobs for reporting, and verified AWS S3/SQS."
+      ]
+    },
+    {
+      "company": "Bank of America",
+      "title": "SDET",
+      "location": "India",
+      "start": "February 2010",
+      "end": "March 2013",
+      "bullets": [
+        "Developed a TestNG framework with Page Object Model in Selenium, validated SOAP services with SOAP UI, and configured Jenkins and Ant."
+      ]
+    },
+    {
+      "company": "HBOS",
+      "title": "Quality Engineer",
+      "location": "India",
+      "start": "November 2006",
+      "end": "February 2010",
+      "bullets": [
+        "Developed QTP automation scripts and custom function libraries, performed regression testing, and tracked defects in Quality Center until closure."
+      ]
+    }
+  ],
+  "projects": [
+    {
+      "name": "AI-Financial-Planner",
+      "bullets": [
+        "Engineered a full-stack application for an innovation challenge focused on intelligent financial debt repayment planning.",
+        "Integrated open-source LLMs, including Mistral 7B Instruct from Hugging Face, to power conversational financial assistance.",
+        "Employed Crew AI agents to deliver personalized financial insights and recommendations.",
+        "Implemented time series forecasting models to predict user expenditure and support proactive financial decision-making."
+      ]
+    },
+    {
+      "name": "Hackathon \u2013 Loan Defaulter Prediction",
+      "bullets": [
+        "Preprocessed and cleaned the dataset to handle missing values and outliers and ensure data consistency; conducted exploratory data analysis (EDA) to identify key patterns, correlations, and feature distributions.",
+        "Split data into training and testing sets and applied StandardScaler for feature normalization.",
+        "Experimented with Logistic Regression, Decision Tree, Bagging, AdaBoost, XGBoost, and Gradient Boosting; evaluated using accuracy and recall and selected the best-performing model for predicting loan defaults."
+      ]
+    }
+  ],
+  "education": [
+    "Post Graduate Program in Artificial Intelligence and Machine Learning, University of Texas at Austin (2021)",
+    "MSc (Electronics), Sri Venkateswara University, Tirupati, Andhra Pradesh, India (2006)"
+  ],
+  "certifications": [
+    "Databricks certification: in progress"
+  ],
+  "source_file": "Laxminarayana_MulaVenkata_Data_Engineer.docx",
+  "profile_note": "Imported from the uploaded resume. Resume states 17+ years; confirm this figure before using in an application."
+}
